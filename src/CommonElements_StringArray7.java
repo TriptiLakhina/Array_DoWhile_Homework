@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 // Writing a program to find the common elements between two user defined string arrays
-public class CommonElements_StringArray
+public class CommonElements_StringArray7
 {
 
     // Creating object for scanner class to take input
@@ -11,10 +11,10 @@ public class CommonElements_StringArray
     public static void main(String[] args)
     {
         // Creating class object to call non-static method to static area
-        CommonElements_StringArray commonElements_stringArray = new CommonElements_StringArray();
+        CommonElements_StringArray7 commonElements_stringArray7 = new CommonElements_StringArray7();
 
         // calling method using class object
-        commonElements_stringArray.findCommonElements();
+        commonElements_stringArray7.findCommonElements();
 
     }
 
