@@ -52,7 +52,7 @@ public class Transpose_2DArrayMatrix
             }
         }
         // using for loop to create originalMatrix as rectangular two dimensional array
-        System.out.println("The above matrix before Transpose is ");
+        System.out.println("\nThe above matrix before Transpose is ");
         for(i = 0; i < row; i++)
         {
             for(j = 0; j < column; j++)
@@ -63,7 +63,7 @@ public class Transpose_2DArrayMatrix
         }
 
         // using forloop to create 2 dimensional matrix after transpose
-        System.out.println("The above matrix after Transpose is ");
+        System.out.println("\nThe above matrix after Transpose is ");
         for(i = 0; i < column; i++)
         {
             for(j = 0; j < row; j++)
