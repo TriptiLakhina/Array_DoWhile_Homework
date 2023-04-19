@@ -25,10 +25,15 @@ public class Transpose_2DArrayMatrix
     public void transposeMatrix()
     {
         // message to user for what to enter
-        System.out.println("Enter total rows and columns: ");
+        System.out.println("Enter total rows : ");
 
         // storing variable using scanner object
         int row = scanner.nextInt();
+
+        // message to user for what to enter
+        System.out.println("Enter total columns: ");
+
+        // storing variable using scanner object
         int column = scanner.nextInt();
 
         // Storing variables
