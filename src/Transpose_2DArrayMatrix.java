@@ -42,7 +42,7 @@ public class Transpose_2DArrayMatrix
         // declaration and instantiation of array
         int array[][] = new int[row][column];
 
-        System.out.println("Enter matrix:");
+        System.out.println("Enter matrix pressing enter after every input:");
         for(i = 0; i < row; i++)
         {
             for(j = 0; j < column; j++)
