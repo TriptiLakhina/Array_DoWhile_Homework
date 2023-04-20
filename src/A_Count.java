@@ -33,14 +33,17 @@ public class A_Count
 
         //using while loop to count occurrence of 'a' in the string input.
         int i = 0;
-        while (i < charCount)
-            i++;
-        {
-            if (sentence.charAt(i) != ' ')          //writing a condition to go to count increment & print output only if string/character input is not blank.
-                count++;
+
+        while (i < charCount) {
+            if (sentence.charAt(i) != ' '){
+                     //writing a condition to go to count increment & print output only if string/character input is not blank.
+            count++;
+        }
+        i++;
 
 
             // Writing print command for required output
-        } System.out.println("Total number of character 'a' in your string" + " \"" + sentence + "\" "+ "are: "+ count);
+        }
+        System.out.println("Total number of character 'a' in your string" + " \"" + sentence + "\" "+ "are: "+ count);
     }
 }
